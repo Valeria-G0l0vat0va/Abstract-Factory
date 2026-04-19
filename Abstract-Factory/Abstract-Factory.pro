@@ -18,4 +18,14 @@ HEADERS += \
     ClassUnit.h \
     MethodUnit.h \
     PrintOperatorUnit.h \
-    Unit.h
+    Unit.h \
+    cppClassUnit.h \
+    cppMethodUnit.h \
+    cppPrintOperatorUnit.h \
+    csClassUnit.h \
+    csMethodUnit.h \
+    csPrintOperatorUnit.h \
+    javaClassUnit.h \
+    javaMethodUnit.h \
+    javaPrintOperatorUnit.h \
+    сppMethodUnit.h

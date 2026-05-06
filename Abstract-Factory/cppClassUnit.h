@@ -7,7 +7,7 @@ class cppClassUnit : public ClassUnit
 public:
     static const std::vector< std::string > ACCESS_MODIFIERS;
 public:
-    explicit cppClassUnit( const std::string& name ) :ClassUnit(name, ACCESS_MODIFIERS.size()){}
+    explicit cppClassUnit( const std::string& name ) :ClassUnit(name){}
 
     void add( const std::shared_ptr< Unit >& unit, Flags flags ) {
         int accessModifier = PRIVATE;

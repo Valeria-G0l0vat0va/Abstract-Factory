@@ -15,11 +15,11 @@ public:
     };
     static const std::vector< std::string > ACCESS_MODIFIERS;
 public:
-    explicit ClassUnit( const std::string& name ) : m_name( name ) {
-        m_fields.resize( ACCESS_MODIFIERS.size() );
+    explicit ClassUnit(const std::string& name) : m_name(name) {
+        m_fields.resize(ACCESS_MODIFIERS.size());
     }
-
-private:
+    virtual ~ClassUnit() = default;
+protected:
     std::string m_name;
     using Fields = std::vector< std::shared_ptr< Unit > >;
     std::vector< Fields > m_fields;

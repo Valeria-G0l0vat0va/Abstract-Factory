@@ -4,9 +4,9 @@
 
 class PrintOperatorUnit : public Unit {
 public:
-    explicit PrintOperatorUnit( const std::string& text ) : m_text( text ) { }
+    explicit PrintOperatorUnit( const std::string& text ) : m_text(text) { }
     virtual ~PrintOperatorUnit() = default;
-private:
+protected:
     std::string m_text;
 };
 #endif // PRINTOPERATORUNIT_H

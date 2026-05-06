@@ -9,7 +9,7 @@ public:
         :MethodUnit(name, returnType, flags) {}
 
     std::string compile( unsigned int level = 0 ) const {
-        std::string result = "";
+        std::string result = generateShift(level);
         if( m_flags & STATIC ) {
             result += "static ";
         } else if( m_flags & FINAL ) {

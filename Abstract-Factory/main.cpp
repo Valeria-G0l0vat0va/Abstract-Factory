@@ -13,7 +13,7 @@ std::string generateProgram(std::shared_ptr<ILanguageFactory> factory) {
     myClass->add(factory->createMethod("testFunc3", "void", MethodUnit::VIRTUAL | MethodUnit::CONST), ClassUnit::PUBLIC);
 
     auto method = factory->createMethod("testFunc4", "void", MethodUnit::STATIC);
-    method->add(factory->createPrintOperator("Hello, world!\\n"));
+    method->add(factory->createPrintOperator("Hello, world!"));
     myClass->add(method, ClassUnit::PROTECTED);
 
     return myClass->compile();

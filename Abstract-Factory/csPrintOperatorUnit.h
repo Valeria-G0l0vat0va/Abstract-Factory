@@ -9,7 +9,7 @@ public:
     explicit csPrintOperatorUnit(const std::string& text) : PrintOperatorUnit(text) { }
 
     std::string compile(unsigned int level = 0) const {
-        return generateShift(level) + "Console.WriteLine( \"" + m_text + "\" );\n";
+        return generateShift(level) + "Console.WriteLine( \"" + m_text + "\" );";
     }
 };
 #endif // CSPRINTOPERATORUNIT_H

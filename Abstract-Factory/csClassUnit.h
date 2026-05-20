@@ -33,7 +33,7 @@ public:
             result += "\n";
         }
 
-        result += generateShift(level) + "};\n";
+        result += generateShift(level) + "}\n";
         return result;
     }
 };

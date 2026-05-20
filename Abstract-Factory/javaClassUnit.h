@@ -20,7 +20,7 @@ public:
     }
     std::string compile( unsigned int level = 0 ) const
     {
-        std::string result = generateShift(level) + "public class " + m_name + "\n";
+        std::string result = generateShift(level) + "public class " + m_name + "{\n";
         for (size_t i = 0; i < ACCESS_MODIFIERS.size(); ++i) {
             if (m_fields[i].empty()) {
                 continue;
@@ -32,7 +32,7 @@ public:
             result += "\n";
         }
 
-        result += generateShift(level) + "};\n";
+        result += generateShift(level) + "}\n";
         return result;
     }
 };

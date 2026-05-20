@@ -18,4 +18,5 @@ C++, Java, C#.
 <img width="872" height="586" alt="Снимок экрана 2026-05-12 214535" src="https://github.com/user-attachments/assets/d4c14ca6-b5a7-4b0b-b4cf-922720f0d38d" />
 
 ## Тестирование
-<img width="445" height="988" alt="Снимок экрана 2026-05-20 132145" src="https://github.com/user-attachments/assets/cfafdfd3-a445-4260-b3c6-5286821b8968" />
+<img width="445" height="1019" alt="image" src="https://github.com/user-attachments/assets/af402e19-34ce-4fd5-ac05-b3db6e951d71" />
+
